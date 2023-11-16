@@ -1,0 +1,74 @@
+@use "./base.scss";
+
+/* put your custom CSS here!*/
+
+[saved-theme="light"]{
+    --h1: #8c4351;
+    --h2: #8f5e15;
+    --h3: #485e30;
+    --h4: #0f4b6e;
+    --h5: #34548a;
+    --h6: #5a4a78;
+    --light: #d5d6db !important;
+    --lightgray: #565a6e !important;
+    --gray: #9aa5ce !important;
+    --darkgray: #9aa5ce !important;
+    --secondary: #8c4351 !important;
+    --tertiary: #34548a !important;
+}
+
+[saved-theme="dark"]{
+    --h1: #f7768e;
+    --h2: #e0af68;
+    --h3: #9ece6a;
+    --h4: #7dcfff;
+    --h5: #7aa2f7;
+    --h6: #bb9af7;
+    --light: #24283b !important;
+    --lightgray: #9aa5ce !important;
+    --secondary: #f7768e !important;
+    --tertiary: #7aa2f7 !important;
+}
+
+h1 {
+    color: var(--h1);
+}
+
+h2 {
+   color: var(--h2);
+}
+
+h3 {
+    color: var(--h3);
+}
+
+h4 {
+    color: var(--h4);
+}
+
+h5 {
+    color: var(--h5);
+}
+h6 {
+    color: var(--h6);
+}
+
+a {
+    color: var(--h6) !important;
+}
+
+strong {
+    color: var(--h4) !important;
+}
+
+body, section[saved-theme="light"] {
+    background-color: var(--light) !important;
+}
+
+body, section[saved-theme="dark"] {
+    background-color: var(--light);
+}
+
+th {
+    text-align: center;
+}
