@@ -8,4 +8,13 @@ The `ts` file will only change the highlighting of the node's links, while the `
 
 
 Pageview (Darkmode):
-<img src="https://github.com/nutusSar/Quartz-Theme-TokyoNight/edit/main/ShowcaseImages/Darkmode1.PNG">
+![Pageview (Darkmode):](ShowcaseImages/Darkmode1.PNG)
+
+Graphview (Darkmode):
+![Graphview (Darkmode):](ShowcaseImages/Darkmode2.png)
+
+Pageview (Lightmode):
+![Pageview (Darkmode):](ShowcaseImages/Lightmode1.PNG)
+
+Graphview (Lightmode):
+![Graphview (Darkmode):](ShowcaseImages/Lightmode2.png)
