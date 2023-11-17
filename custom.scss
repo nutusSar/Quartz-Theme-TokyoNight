@@ -9,12 +9,15 @@
     --h4: #0f4b6e;
     --h5: #34548a;
     --h6: #5a4a78;
-    --light: #d5d6db !important;
+    --light: #ffffff !important;//#d5d6db !important;
     --lightgray: #565a6e !important;
-    --gray: #9aa5ce !important;
+    --gray: #34548a !important;
     --darkgray: #9aa5ce !important;
     --secondary: #8c4351 !important;
     --tertiary: #34548a !important;
+    --tagNode: #5a4a78;
+    --linkNodeHighlight: #2ac3de;
+
 }
 
 [saved-theme="dark"]{
@@ -26,8 +29,11 @@
     --h6: #bb9af7;
     --light: #24283b !important;
     --lightgray: #9aa5ce !important;
+    --gray: #7aa2f7 !important;
     --secondary: #f7768e !important;
     --tertiary: #7aa2f7 !important;
+    --tagNode: #bb9af7;
+    --linkNodeHighlight: #2ac3de;
 }
 
 h1 {
@@ -72,3 +78,10 @@ body, section[saved-theme="dark"] {
 th {
     text-align: center;
 }
+
+
+
+[id*="tags/"].node{
+    fill: var(--tagNode)!important;
+}
+
